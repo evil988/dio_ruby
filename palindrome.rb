@@ -1,5 +1,3 @@
-palavra = String.new
-
 def palindromo?(palavra)
   palavra.downcase.eql? palavra.downcase.reverse
 end
